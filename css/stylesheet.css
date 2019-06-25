@@ -1,0 +1,268 @@
+/** navigation **/
+@media screen and (min-width: 769px) {
+
+  #div-mobile { display: none; }
+  #div-desktop { display: block; }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  #div-mobile { display: block; }
+  #div-desktop { display: none; }
+
+}
+
+.navbar-nav,
+.dropdown-menu {
+  font-size: 14px;
+}
+
+#search-bar {
+  display: none;
+  padding-top: 10px;
+}
+
+#search-input input,
+#search-input .btn-outline-secondary {
+  border: 0;
+  border-radius: 0;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #282f54;
+}
+
+#search-input .btn-outline-secondary:hover {
+  background-color: #282f54;
+}
+
+#top-navigation {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#top-navigation .navbar-brand {
+  padding: 0;
+}
+
+#secondary-nav {
+  border-bottom: 1px solid #ccc;
+}
+
+#secondary-nav .nav-link {
+  color: #141414;
+}
+
+#secondary-nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+#secondary-nav li:not(:last-child) .nav-link {
+  border-right: solid 1px #ccc;
+}
+
+.collapsing #secondary-nav,
+.collapse.show #secondary-nav {
+  border-bottom: 0;
+}
+
+.collapsing #secondary-nav li:not(:last-child) .nav-link,
+.collapse.show #secondary-nav li:not(:last-child) .nav-link {
+  border-right: 0;
+}
+
+#nav-menu-icons {
+  display: flex;
+  flex-direction: row;
+  height: 38px;
+}
+
+#nav-menu-icons .nav-link {
+  padding: 0;
+}
+
+#nav-menu-icons i {
+  font-size: 21px;
+  line-height: 38px;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+  padding: 0;
+}
+
+#mega-menu-navigation {
+  padding: 0;
+}
+
+#primary-nav li:not(:last-child) {
+  border-right: 1px solid #fff;
+}
+
+#primary-nav .nav-link {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+  font-weight: bold;
+}
+
+#primary-nav .nav-link:hover {
+  color: #141414;
+  text-decoration: underline;
+}
+
+#primary-nav li {
+  background-color: #282f54;
+  border-top: 1px solid #282f54;
+}
+
+#primary-nav li:hover {
+  background-color: #f1f1f1;
+}
+
+#primary-nav li:hover .nav-link {
+  color: #282f54;
+}
+
+#primary-nav li.active {
+  background-color: #dfe0e6;
+}
+
+#primary-nav li.active .nav-link {
+  color: #282f54;
+  font-weight: bold;
+}
+
+#primary-nav li.active:hover {
+  background-color: #f1f1f1;
+}
+
+#primary-nav .nav-item.show {
+  background-color: #f1f1f1;
+}
+
+#primary-nav .nav-item.show .nav-link {
+  color: #282f54;
+}
+
+.dropdown-menu {
+  border: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: #f1f1f1;
+  border-radius: 0;
+}
+
+.dropdown-item:hover {
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.dropdown-divider{
+  border-color: #282f54;
+}
+
+.collapsing .nav-item,
+.collapse.show .nav-item{
+  border-bottom: 1px solid #ccc;
+}
+
+.collapsing .nav-link,
+.collapse.show .nav-link{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.collapsing .has-mega-menu,
+.collapse.show .has-mega-menu{
+  background-color: #282f54;
+  border-bottom: 1px solid #ccc;
+}
+
+.collapsing .has-mega-menu .nav-link,
+.collapse.show .has-mega-menu .nav-link{
+  color: #fafafa!important;
+}
+
+.collapse.show .dropdown-menu{
+  box-shadow: none;
+  background-clip: unset;
+}
+@media (min-width: 768px) {
+  .mobile-nav-button {
+      display:none;
+  }
+
+/** header **/
+.header {
+  background-color: #f1f1f1;
+  padding: 40px 0;
+}
+
+.breadcrumb {
+  background-color: transparent;
+  padding-left: 0;
+  padding-top: 0;
+}
+
+.breadcrumb-item a {
+  color: hsl(218, 92%, 33%);
+}
+
+.share {
+  color: hsl(218, 89%, 33%);
+}
+
+/** content **/
+.section {
+  padding: 40px 0;
+}
+
+.img-shadow {
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.8);
+}
+
+.btn-download {
+  background-color: #0a4bb7;
+  border-radius: 0;
+}
+
+/** Footer **/
+.footer {
+  background-color: #141414;
+  padding: 35px 0;
+  color: #fafafa;
+}
+
+.footer__links a {
+  color: #fafafa;
+}
+
+.footer__social-links a {
+  width: 33px;
+  height: 32px;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  color: #fafafa;
+}
+
+.bg-twitter {
+  background-color: #53b8da;
+}
+
+.bg-facebook {
+  background-color: #4d7fca;
+}
+
+.bg-linkedin {
+  background-color: #0a79b9;
+}
+
+.bg-youtube {
+  background-color: #dd2b28;
+}

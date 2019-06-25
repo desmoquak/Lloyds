@@ -1,0 +1,13 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#163411",
+        "titleBar.activeBackground": "#1F4918",
+        "titleBar.activeForeground": "#F5FBF4",
+    },
+    
+    {
+    "liveServer.settings.port": 5501,
+    "editor.fontSize": 16,
+    "editor.wordWrap": "on"
+    }
+}
